@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body  {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+  
+}
+
+
+
+.recovery_image {
+  /* The image used */
+  background-image: url("recovery.jpg");
+
+  min-height: 200px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+
+
+h1 {
+
+text-align: center;
+text-decoration: underline;
+padding: 25px;
+
+
+}
+
+p {
+
+font-size: 17px;
+margin-left: 30px;
+}
+
+.image {
+ display: flex;
+ justify-content: center;
+
+}
+
+img {
+width: 50%;
+ padding: 60px;
+ margin: 30px;
+}
+
+.border1 {
+border-top-style: dashed;
+border-width: 1px;
+}
+
+.border2 {
+border-top-style: dashed;
+border-width: 1px;
+}
+
+.border3 {
+border-top-style: dashed;
+border-width: 1px;
+}
+
+.border4 {
+border-top-style: dashed;
+border-width: 1px;
+}
+
+.border5 {
+border-top-style: dashed;
+border-width: 1px;
+}
+
+.border6 {
+border-top-style: dashed;
+border-width: 1px;
+}
+
+.border7 {
+border-top-style: dashed;
+border-width: 1px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+  
+  
+  
